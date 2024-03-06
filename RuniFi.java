@@ -22,9 +22,13 @@ class RuniFi {
 
         // Displays the list
         display("My list", myList);
+       // String a= track2.formattedDuration(track2.getDuration());
+       // System.out.println(a);
 
         // Displays the total duration
         System.out.println("\nTotal time duration of my list (in seconds):" + myList.totalDuration());
+        
+        
 
         // Inserts a track to some location
         myList.add(1, track5);
